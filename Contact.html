@@ -16,7 +16,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html"
           ><img
-            src="image/logo1 (1).png"
+            src="image/logo1.png"
             width="120px"
             height="60px"
             alt="CDelectrical"
@@ -43,7 +43,9 @@
               <a class="nav-link" href="About.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" href="Contact.html">Contact Us</a>
+              <a class="nav-link active text-light" href="Contact.html"
+                >Contact Us</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -60,14 +62,16 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <li><a class="dropdown-item" href="Wiring.html">House wiring</a></li>
                 <li>
-                  <a class="dropdown-item" href="Rewinding.html">Motor and Fan rewinding </a>
+                  <a class="dropdown-item" href="Wiring.html">House wiring</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="Product.html"
-                    >OUr Products</a
-                  >
+                  <a class="dropdown-item" href="Rewinding.html"
+                    >Motor and Fan rewinding
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Product.html">OUr Products</a>
                 </li>
               </ul>
             </li>
@@ -75,21 +79,90 @@
         </div>
       </div>
     </nav>
-    <div class="container text-center">
-        <h1>Contact page</h1>
+    <div class="container my-4">
+      <div class="row d-flex justify-content-around align-itms-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputname" class="form-label"
+                >Name</label
+              >
+              <input
+                type="name"
+                class="form-control"
+                id="exampleInputname"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputnumber" class="form-label"
+                >Number</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="exampleInputnumber"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputlocation" class="form-label"
+                >Location</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputlocation"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Problem and Feedback</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check my-2">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label text-info" for="exampleCheck1"
+                >New to Website</label
+              >
+            </div> 
+            <button type="submit" class="btn btn-success my-2">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-  
-    <footer class="blog-footer d-flex justify-content-center bg-secondary text-light" style="max-width: 100%; height: 6rem;">
+
+    <footer
+      class="blog-footer d-flex justify-content-center bg-secondary text-light"
+      style="max-width: 100%; height: 6rem"
+    >
       <p class="my-4">
         Ecommerce Website for
-        <a href="http://127.0.0.1:5500/index.html#" class="text-light">CD-electrical</a> by
-        <a href="https://twitter.com/cdelectrical" class="text-light">@cdelectrical</a>.
+        <a href="http://127.0.0.1:5500/index.html#" class="text-light"
+          >CD-electrical</a
+        >
+        by
+        <a href="https://twitter.com/cdelectrical" class="text-light"
+          >@cdelectrical</a
+        >.
       </p>
     </footer>
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
